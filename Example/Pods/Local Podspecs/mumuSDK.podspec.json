@@ -1,0 +1,22 @@
+{
+  "name": "mumuSDK",
+  "version": "0.1.0",
+  "summary": "mumuSDK",
+  "description": "测试pods私有库mumuSDK",
+  "homepage": "https://www.jianshu.com/p/c8ea1f95717a",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18220868151": "amberstone6@163.com"
+  },
+  "source": {
+    "git": "https://github.com/18220868151/mumuSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "mumuSDK/Classes/**/*"
+}

@@ -7,6 +7,7 @@
 //
 
 #import "MUViewController.h"
+#import <WechatSpay.h>
 
 @interface MUViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"IDFA:::::%@",[WechatSpay IDFA]);
 }
 
 - (void)didReceiveMemoryWarning

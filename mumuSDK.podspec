@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'mumuSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of mumuSDK.'
+  s.summary          = 'mumuSDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+测试pods私有库mumuSDK
                        DESC
 
-  s.homepage         = 'https://github.com/18220868151/mumuSDK'
+  s.homepage         = 'https://www.jianshu.com/p/c8ea1f95717a'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '18220868151' => 'amberstone6@163.com' }

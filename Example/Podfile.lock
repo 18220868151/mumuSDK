@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - mumuSDK (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - mumuSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  mumuSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  mumuSDK: 6d48bb59b498c6df7861b782d941a7b1943a0646
+
+PODFILE CHECKSUM: b519597abde103c063241e42f80183ec4853db8e
+
+COCOAPODS: 1.7.0.beta.1
