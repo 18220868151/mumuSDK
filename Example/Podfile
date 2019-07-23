@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'mumuSDK_Example' do
+  pod 'mumuSDK', :path => '../'
+
+  target 'mumuSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
